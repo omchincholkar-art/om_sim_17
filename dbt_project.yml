@@ -1,0 +1,8 @@
+name: 'om_sim_17'
+version: '1.0'
+config-version: 2
+profile: 'my_project'
+model-paths: ["models"]
+models:
+  om_sim_17:
+    +materialized: table
