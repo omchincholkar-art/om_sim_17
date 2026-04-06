@@ -6,4 +6,4 @@ select
   author,
   price,
   price * 0.9 as discounted_price
-from PUBLIC.raw_books
+from OM_DB.PUBLIC.RAW_BOOKS
